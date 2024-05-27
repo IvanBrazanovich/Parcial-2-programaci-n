@@ -1181,9 +1181,10 @@ public class EliminarDirectorio {
     }
 }
 ```
+![Pasted image 20240526222018](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/adfb84fc-4086-4025-87eb-a739e85bd984)
+![Pasted image 20240526222028](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/165519a4-a97f-4bfb-94e8-29b7abf4c40b)
 
-![[Pasted image 20240526222018.png]]
-![[Pasted image 20240526222028.png]]
+
 1. **Método de Creación**:
     - **Archivos**: Se utiliza `createNewFile()`.
     - **Directorios**: Se utilizan `mkdir()` y `mkdirs()`.
@@ -1243,9 +1244,11 @@ public class LeerArchivo {
     }
 }
 ```
-![[Pasted image 20240526223147.png]]
-### Escribir en un archivo de texto
+ 
+ ![Pasted image 20240526223147](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/3218886c-5f1b-49ea-b225-e191487da718)
 
+ 
+### Escribir en un archivo de texto
 Para escribir en un archivo de texto en Java, puedes usar `FileWriter` junto con `BufferedWriter`.
 
 1. El programa escribirá las líneas de texto en archivo.
@@ -1290,8 +1293,12 @@ public class EscribirArchivo {
     }
 }
 ```
-![[Pasted image 20240526223511.png]]
+![Pasted image 20240526223511](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/b37a01f7-2f60-4556-951c-9f04d190f3c1)
 
+
+
+
+ 
 ### Escribir al final del archivo
 
 Para añadir texto al final de un archivo existente, se puede usar el constructor de `FileWriter` que acepta un segundo parámetro `true` para el modo de adición.
@@ -1355,8 +1362,10 @@ public class LeerCaracterPorCaracter {
     }
 }
 ```
-![[Pasted image 20240526223743.png]]
+![Pasted image 20240526223743](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/af6a3d96-dfea-4248-b3a7-60f4e6889e55)
 
+
+ 
 
 
 **Cerrar el `FileReader`**
@@ -1411,7 +1420,9 @@ public class ManejoDeExcepcionesIO {
 }
 
 ```
-![[Pasted image 20240526224610.png]]
+
+
+ ![Pasted image 20240526224610](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/b783e721-aebf-4feb-b40a-04db66a5b767)
 
 
 ### Excepciones en Operaciones Aritméticas
@@ -1438,9 +1449,9 @@ public class ManejoDeExcepcionesAritmeticas {
 ### Bloques finally
 A veces, además de try y catch, se usa un bloque finally que se ejecuta siempre, independientemente de si se lanzó una excepción o no. Es útil para liberar recursos.
 
+![Pasted image 20240526224844](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/fb5ccd9b-8f74-4b1a-8f06-813d4b277053)
 
- ![[Pasted image 20240526224844.png]]
-
+ 
 
 ### try-with-resources
   Esta declaración simplifica el manejo de recursos como archivos, conexiones a bases de datos, etc., asegurando que se cierren automáticamente al final del bloque `try`.
