@@ -42,7 +42,9 @@ public int sumar(int a, int b) {
 
 
  **Inicialización con valores explícitos**
-![[Pasted image 20240527100737.png]]
+
+![Pasted image 20240527100737](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/89f7f565-cc69-4eef-afb5-2feb8ad69c48)
+
 
 
 
@@ -71,7 +73,9 @@ En el contexto de las funciones en Java, las variables locales y globales se ref
 - Las variables locales deben ser inicializadas antes de ser utilizadas en la función.
 
 **Ejemplo de variables locales**
-![[Pasted image 20240527101655.png]]
+
+![Pasted image 20240527101655](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/5d545cab-5a05-41ae-9bf7-74fad5dff646)
+
 
 #### Variables globales
 - Las variables globales son variables declaradas fuera de cualquier función y son accesibles desde cualquier parte del programa.
@@ -80,7 +84,7 @@ En el contexto de las funciones en Java, las variables locales y globales se ref
 - Pueden ser accedidas y modificadas por cualquier función en el programa.
 
 **Ejemplo de variables Globales**
-![[Pasted image 20240527101750.png]]
+ ![Pasted image 20240527101750](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/6b208b4a-25ee-4c58-9581-eadf9973994b)
 
 
 #### Pasaje de Parámetros
@@ -92,7 +96,12 @@ El pasaje de parámetros se refiere a cómo se transfieren los valores entre una
 - Este es el método predeterminado para pasar parámetros en Java para tipos primitivos y objetos inmutables.
 
 **Ejemplo de variables Globales**
-![[Pasted image 20240527102210.png]]
+
+![Pasted image 20240527102210](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/f6aab120-723b-4001-a0b7-eadab46cfc74)
+
+
+
+
 ``` java
 public class PasajePorValor {
     public static void main(String[] args) {
@@ -115,7 +124,12 @@ public class PasajePorValor {
 - Este método se utiliza para pasar parámetros en Java para objetos mutables.
 
 **Ejemplo de variables Globales**
-![[Pasted image 20240527102436.png]]
+
+![Pasted image 20240527102436](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/5b4271ed-05a1-4f72-852e-bf115791bcbb)
+
+
+
+
 
 
 #### Parámetros nominales y efectivos
@@ -124,7 +138,9 @@ Los parámetros nominales y efectivos son conceptos relacionados con la forma en
 - Los parámetros nominales son los nombres de los parámetros que se definen en la declaración de la función o método.
 - Estos nombres son utilizados para identificar los valores que se pasan a la función cuando se llama.
 - Son útiles para proporcionar significado y contexto a los valores que se pasan a la función.
-![[Pasted image 20240527102615.png]]
+![Pasted image 20240527102615](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/63feb5ff-8c9d-4609-9454-3d6baeaf94bd)
+
+
 
 
 
