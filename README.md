@@ -78,7 +78,7 @@ La búsqueda binaria es un algoritmo eficiente para buscar un elemento en una li
 - Limitación a Listas Ordenadas: Solo se puede aplicar a listas que estén previamente ordenadas.
 
 **Implementación (Java):**
-```java
+``` java
 public static int binarySearch(int[] arr, int key) {
     int left = 0;
     int right = arr.length - 1;
@@ -115,7 +115,7 @@ public static int binarySearch(int[] arr, int key) {
 **Desventajas:**
 - Ineficiencia: Tiene una complejidad temporal de O(n^2), lo que lo hace ineficiente para listas grandes.
 - Rendimiento: No es recomendado para conjuntos de datos grandes debido a su baja eficiencia en comparación con otros algoritmos de ordenamiento.
-```java
+``` java
 procedure bubbleSort(arr: array)
     n = length(arr)
     for i from 0 to n-1 do
@@ -149,7 +149,7 @@ end procedure
 
 **Desventajas:**
 - Espacio de Memoria: Requiere espacio adicional para almacenar las sublistas durante la fusión, lo que puede ser costoso en términos de memoria para conjuntos de datos grandes.
-```
+``` java
 procedure mergeSort(arr: array)
     n = length(arr)
     if n > 1 then
