@@ -248,9 +248,10 @@ Las listas enlazadas son estructuras de datos dinámicas que consisten en nodos 
 - **Asignación de puntero:** una operación de asignación entre dos punteros, como p=q, hace que los dos punteros se refieran (o apunten) al mismo apuntado. No se copia dos veces en la memoria al apuntado, sino que los dos punteros almacenan la dirección de memoria del apuntado. 
 
 
-![[Pasted image 20240508191225.png]]
-```java
-// Definición de la clase Nodo para representar los nodos de la lista enlazada
+![Pasted image 20240508191225](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/3121efec-84a4-4d1f-a3f5-e7883bb791f4)
+
+
+ ```java// Definición de la clase Nodo para representar los nodos de la lista enlazada
 class Nodo {
     int dato;
     Nodo siguiente;
@@ -312,20 +313,23 @@ public class ListaEnlazada {
 ### Pilas (Stacks)
 Una pila es una estructura de datos que sigue el principio de "último en entrar, primero en salir" (LIFO). Los elementos se agregan y eliminan solo desde un extremo, llamado la cima (top) de la pila. Esto hace que las operaciones de inserción y eliminación sean eficientes, pero el acceso a elementos en posiciones intermedias no está permitido.
 
-![[Pasted image 20240508191312.png]]
+ 
+![Pasted image 20240508191312](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/cfa84554-ab9d-430a-b838-cc1557a398e7)
 
 
 
 ### Colas (Queues)
 Una cola es una estructura de datos que sigue el principio de "primero en entrar, primero en salir" (FIFO). Los elementos se agregan al final de la cola y se eliminan desde el principio. Esto es útil en situaciones donde se necesita procesar elementos en el mismo orden en que llegaron.
-![[Pasted image 20240508191615.png]]
+ 
+![Pasted image 20240508191615](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/19fb7d14-0b36-4297-95d6-6d1b741c8240)
 
 
 
 ### Árbol Binario
 Es una estructura de datos jerárquica donde cada nodo tiene como máximo dos hijos: uno izquierdo y uno derecho. Esta estructura permite una búsqueda eficiente, inserción y eliminación de datos. Los árboles binarios son la base de muchas otras estructuras de datos más complejas, como los árboles binarios de búsqueda.
+![Pasted image 20240508192840](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/5e1dd52e-8fe3-4e37-83ff-530adbb5208a)
 
-![[Pasted image 20240508192840.png]]
+
 ```java
 // Definición de la clase Nodo para representar los nodos del árbol binario
 class Nodo {
@@ -410,7 +414,9 @@ public class ArbolBinario {
 
 ### Árbol Binario de Búsqueda
 Es un tipo especial de árbol binario donde los elementos están organizados de manera que los elementos menores que el nodo raíz se encuentran en el subárbol izquierdo, y los elementos mayores se encuentran en el subárbol derecho. Esto permite realizar búsquedas, inserciones y eliminaciones de manera eficiente, con un tiempo de complejidad logarítmico en el peor de los casos.
-![[Pasted image 20240508192916.png]]
+![Pasted image 20240508192916](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/e43dc545-4061-4c99-b2bb-dbe8fe688488)
+
+
 ```java
 // Definición de la clase Nodo para representar los nodos del árbol binario de búsqueda (ABB)
 class Nodo {
@@ -574,9 +580,11 @@ Los arrays son una forma de almacenar múltiples valores del mismo tipo en una s
 ### Arreglos unidimensionales
 
 En este ejemplo, tenemos un arreglo unidimensional. Cada elemento tiene un valor numérico y está almacenado en un índice específico del arreglo. Para acceder a un valor específico en el arreglo, puedes utilizar su índice correspondiente.
-![[Pasted image 20240506180257.png]]
-![[Pasted image 20240506180309.png]]
-![[Pasted image 20240506180323.png]]
+
+![Pasted image 20240506180323](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/fc33b00c-bdd0-4cf5-9a90-04606ad7fdd3)
+![Pasted image 20240506180309](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/20939f1b-ea73-48b4-bc67-5b96e9737111)
+![Pasted image 20240506180257](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/28067064-c5ae-44cf-88ac-67b310fd0564)
+
 
 ### Operaciones sobre arreglos
 #### 1. Declaración e inicialización de arreglos:
@@ -610,16 +618,16 @@ for (tipo elemento : nombre_arreglo) {
     // Operaciones con elemento
 }
 ```
-![[Pasted image 20240506180610.png]]
-
+ ![Pasted image 20240506180610](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/f202e7c7-da46-46eb-ba55-1659f44d1b47)
 
 #### 5. Copia de arreglos:
 ```java
 tipo[] copia_arreglo = nombre_arreglo.clone();
 ```
-![[Pasted image 20240506180739.png]]
-#### 6. Ordenamiento de arreglos:
-```java
+ ![Pasted image 20240506180739](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/2683839c-1157-4fb2-81be-7eadf3645416)
+
+ 
+#### 6. Ordenamiento de arreglos:```java
 Arrays.sort(nombre_arreglo); // Para arreglos de tipos primitivos
 Arrays.sort(nombre_arreglo, Comparator); // Para arreglos de objetos con un comparador personalizado
 ```
@@ -636,8 +644,7 @@ boolean iguales = Arrays.equals(arreglo1, arreglo2);
 
 
 #### 9. Agregar un elemento
-![[Pasted image 20240506180642.png]]
-
+ ![Pasted image 20240506180642](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/14a8c625-9544-4e4b-9710-873d1912f580)
 
 
 ### Arreglos bidimensionales 
@@ -645,9 +652,13 @@ Un array bidimensional es un array que dentro de un elemento contienen otro arra
 Las matrices multidimensionales emplean más de un índice para acceder a los elementos de la matriz. 
 
 Para hacer referencia a un elemento de nuestro array de 2 dimensiones utilizamos dos valores.  Uno que referencia a la fila y otro que haga referencia a la columna.
-![[Pasted image 20240506180953.png]]
-![[Pasted image 20240506181041.png]]
-![[Pasted image 20240506181053.png]]
+![Pasted image 20240506180953](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/841575a2-a2d5-441d-8105-de5e585e99a6)
+![Pasted image 20240506181041](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/ad1b49d4-b39c-43fc-a680-9caf1235ff31)
+![Pasted image 20240506181053](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/abdbc6a5-1f19-44f4-8d53-09b55290c875)
+
+
+
+
 
 #### 1. Declaración e inicialización de arreglos bidimensionales:
 ```java
@@ -676,8 +687,11 @@ for (int i = 0; i < nombre_arreglo.length; i++) {
     }
 }
 ```
-![[Pasted image 20240506181351.png]]
-![[Pasted image 20240506181402.png]]
+
+![Pasted image 20240506181351](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/45130fea-b246-4618-b6cd-0608f0506a14)
+![Pasted image 20240506181119](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/93028588-9e72-4c9e-8491-18e4814995f6)
+
+
 
 #### 5. Tamaño del arreglo bidimensional:
 ```java
@@ -956,10 +970,14 @@ Esta implementación de Merge Sort tiene una complejidad de tiempo de O(n log n)
 
 
 ### Ordenamiento Secuencial
-![[Pasted image 20240506185818.png]]
+![Pasted image 20240506185818](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/3fba7a08-d25c-44d9-986e-13385b21e1e4)
+
+
+
 
 ### Ordenamiento paralelo 
-![[Pasted image 20240506185831.png]]
+ ![Pasted image 20240506185831](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/40617d05-ee5b-4d9e-a472-a23d606718b7)
+
 
 
 
@@ -976,9 +994,13 @@ Una lista es una estructura de datos que almacena una colección ordenada de ele
 - **Permite Duplicados y Elementos Nulos:** Permiten elementos duplicados y pueden contener elementos nulos (null).
 - **Iteración Eficiente:** Los ArrayList proporcionan métodos eficientes para iterar sobre los elementos de la lista, como el uso de bucles for-each o la iteración a través de índices.
 
-![[Pasted image 20240506190348.png]]![[Pasted image 20240506190358.png]]![[Pasted image 20240506190407.png]]
-![[Pasted image 20240506190417.png]]
-![[Pasted image 20240506190430.png]]
+ ![Pasted image 20240506190430](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/d5290cfa-93eb-4f7e-8703-d18b3ee1d591)
+![Pasted image 20240506190417](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/b6e52d7f-f18a-4b9b-83dd-5e300d22d50a)
+![Pasted image 20240506190407](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/455b814c-4125-4f86-a110-a304902a8829)
+![Pasted image 20240506190358](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/ea5c717e-9739-4f8b-940c-9e651f4043c5)
+![Pasted image 20240506190348](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/4d3d01f6-a8c6-4d22-92ec-f9094eafe565)
+
+
 
 
 ### Pilas
@@ -996,12 +1018,12 @@ En Java, puedes implementar una pila utilizando Stack de la clase java.util.
 	- search() para buscar un elemento y obtener su posición en la pila
 	- size() para obtener el tamaño actual de la pila
 
+ ![Pasted image 20240506190624](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/73abdd86-5057-4b11-a5e8-7ac12718eabe)
+![Pasted image 20240506190618](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/43289422-11ef-4ee3-9a41-7e669e39c30c)
+![Pasted image 20240506190612](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/ea7b6c7b-547c-4a9c-86da-afba56a9c53b)
+![Pasted image 20240506190556](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/8b82e699-f53b-4a91-bf47-d0034e10d0dd)
+![Pasted image 20240506190548](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/6c4de6c5-24ea-4f33-bae5-fdfbe97eeaee)
 
-![[Pasted image 20240506190548.png]]
-![[Pasted image 20240506190556.png]]
-![[Pasted image 20240506190612.png]]
-![[Pasted image 20240506190618.png]]
-![[Pasted image 20240506190624.png]]
 
 
 
@@ -1014,10 +1036,14 @@ Una cola es una estructura de datos que sigue el principio FIFO (First In, First
 - **Operaciones de Inserción y Eliminación Eficientes:** Debido a su estructura de lista doblemente enlazada, LinkedList es particularmente eficiente para operaciones de inserción y eliminación en cualquier posición de la lista. 
 - **Acceso Secuencial Eficiente:** Las operaciones como get() pueden ser menos eficientes que en un ArrayList. Uso de Memoria Adicional: Debido a la necesidad de almacenar referencias a los nodos previos y siguientes, LinkedList puede consumir más memoria que ArrayList, especialmente para listas grandes.
 - **Iteración Eficiente:** LinkedList proporciona métodos eficientes para iterar sobre los elementos de la lista, ya sea mediante el uso de bucles for-each o iteradores.
-![[Pasted image 20240506190724.png]]
-![[Pasted image 20240506190733.png]]
-![[Pasted image 20240506190743.png]]
-![[Pasted image 20240506190752.png]]
+
+
+<img width="488" alt="Pasted image 20240506190752" src="https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/cc659aea-13b7-479d-87a3-9a14db535d88">
+![Pasted image 20240506190743](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/56d924cf-66d1-4613-a310-c185e3645dd7)
+![Pasted image 20240506190733](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/b0520afa-cab4-4051-b05a-10dc1730d972)
+![Pasted image 20240506190724](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/6d10c650-1a70-4b23-b96b-1432d633dab8)
+
+
 
 
 ## Archivos
@@ -1073,8 +1099,10 @@ public class CrearArchivo {
 }
 ```
 
-![[Pasted image 20240526221321.png]]
+![Pasted image 20240526221321](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/e6040da7-e839-4dc6-b9b4-5ae9eb5c9d34)
 
+
+  
 **`createNewFile()`**: Crea un nuevo archivo vacío si no existe. Devuelve `true` si el archivo fue creado con éxito, y `false` si el archivo ya existe. Puede lanzar una excepción `IOException` si ocurre un error de entrada/salida.
 
 
@@ -1103,7 +1131,11 @@ public class ListarArchivos {
     }
 }
 ```
-![[Pasted image 20240526221829.png]]
+
+
+![Pasted image 20240526221829](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/1c9cf9ac-19c7-4682-89f1-c3c8e55837af)
+
+
 
 + **`listFiles()`**: Devuelve un array de objetos `File` que representan los archivos y directorios en el directorio especificado. Devuelve `null` si el objeto `File` no representa un directorio.
 - `list()`: Devuelve un array de `String` con los nombres de los archivos y directorios.
@@ -1149,6 +1181,7 @@ public class EliminarDirectorio {
     }
 }
 ```
+
 ![[Pasted image 20240526222018.png]]
 ![[Pasted image 20240526222028.png]]
 1. **Método de Creación**:
