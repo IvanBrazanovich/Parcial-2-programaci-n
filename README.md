@@ -1487,6 +1487,15 @@ public class TryWithResourcesExample {
 ### Con y sin Try with resources
 `try-with-resources` and traditional `try-catch-finally` blocks are both mechanisms in Java for handling resources, but they differ in terms of syntax, readability, and resource management.
 
+
+
+
+
+
+## Estructuras dinámicas y estáticas
+![WhatsApp Image 2024-05-31 at 16 05 04](https://github.com/IvanBrazanovich/Parcial-2-programaci-n/assets/72144539/81f4f997-8336-40a0-8cfa-e80705a0b6c6)
+
+
 **1. Syntax:**
 - In traditional `try-catch-finally` blocks, you manually open and close resources within the `try` block and handle exceptions and resource closure in the `catch` and `finally` blocks respectively.
 
